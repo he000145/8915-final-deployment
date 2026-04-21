@@ -1,5 +1,21 @@
 # CST8915 Final Project - Best Buy Cloud-Native Store Deployment
 
+**Course:** CST8915 – Full-stack Cloud-native Development  
+**Student:** He Yiming  
+**Repository:** `8915-final-deployment`
+
+## AI Assistance Disclosure
+
+> **AI assistance was used in this assignment.** AI tools were used to help with code explanations, debugging, query drafting, documentation structure, and dashboard integration. All code submitted was reviewed, tested, and understood before submission.
+
+---
+
+## Demo Video
+
+🎥 [Watch Demo Video](https://youtu.be/VynYOLwaJFQ)
+
+---
+
 ## Project Overview
 
 This repository contains the Kubernetes deployment manifests for a Best Buy-inspired electronics store built as a microservice-based application and deployed to Azure Kubernetes Service (AKS).
@@ -145,27 +161,3 @@ When the `EXTERNAL-IP` values are assigned, open the `store-front` and `store-ad
 | `order-service-Bestbuy` | https://github.com/he000145/order-service-Bestbuy.git | `hebenben/order-service-bestbuy:v2` |
 | `makeline-service-Bestbuy` | https://github.com/he000145/makeline-service-Bestbuy.git | `hebenben/makeline-service-bestbuy:v1` |
 | `8915-final-deployment` | https://github.com/he000145/8915-final-deployment.git | `N/A` |
-
-## Demo Video
-
-`<YOUTUBE-DEMO-LINK>`
-
-## Demo Scope
-
-The demo video should show:
-
-- a short project pitch and architecture overview
-- the application running on AKS, including storefront ordering and admin-side order monitoring
-- a CI/CD demonstration for at least one service repository
-
-## CI/CD Note
-
-At least one service should demonstrate a CI/CD flow in the final project video, such as building a container image, publishing it, and deploying or updating it in AKS. This deployment repository focuses on Kubernetes manifests, so CI/CD implementation details may be maintained in one or more of the related service repositories rather than here.
-
-## Future Improvements
-
-- Integrate stronger secret management with Azure Key Vault or an external secrets solution.
-- Add an ingress controller and TLS termination for cleaner and more secure public access.
-- Introduce centralized logging, monitoring, and alerting for application and infrastructure visibility.
-- Add autoscaling, health probes, and resiliency controls to improve fault tolerance.
-- Harden MongoDB and RabbitMQ for more production-ready persistence, security, and backup handling.
